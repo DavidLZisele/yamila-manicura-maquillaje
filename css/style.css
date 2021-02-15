@@ -20,17 +20,13 @@
 .navbar-brand 
 {
     font-family: 'Italianno', cursive;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
 }
 .border-sm-top 
 {
         border-top: solid 1px #fff; 
 }
-.whastapp-article
-{
-    left:85% !important;
-    bottom:15px;
-}
+
 .swiper-container {
     width: 100%;
     padding-top: 50px;
@@ -51,11 +47,45 @@
     content: "--------";
     color: black;
 } 
+.whastapp-article 
+{
+    left:75%;
+    bottom:25px;
+}
+@media screen and (min-width:451px) and (max-width:575px)
+{
+    .whastapp-article 
+    {
+        left:82%;
+    }
+}
+@media screen and (min-width:576px)
+{
+    .navbar-brand 
+    {
+    letter-spacing: 8px;
+    }
+    .whastapp-article 
+    {
+        left:85%;
+    }
+}
 @media screen and (min-width:768px)
 {
     .container
     {
         max-width: 991px;
+    }
+    .whastapp-article 
+    {
+        left:87%;
+    }
+}
+@media screen and (min-width:830px) and (max-width:991px)
+{
+    .whastapp-article 
+    {
+        left:90%;
     }
 }
 @media screen and (min-width:992px)
@@ -92,10 +122,6 @@
     {
         border-top: 0;
     }   
-    .whastapp-article
-    {
-        left:90% !important;
-    }
     @keyframes divFooter 
     {
         from 
@@ -127,7 +153,18 @@
             
         }
     }
+    .whastapp-article 
+    {
+        left:90%;
+    }
 
+}
+@media screen and (min-width:1080px) and (max-width:1199px)
+{
+    .whastapp-article 
+    {
+        left:92%;
+    }
 }
 @media screen and (min-width:1200px)
 {
@@ -144,8 +181,8 @@
     {
         letter-spacing: 8px;
     }
-    .whastapp-article
+    .whastapp-article 
     {
-        left:93% !important;
+        left:93%;
     }
 }
