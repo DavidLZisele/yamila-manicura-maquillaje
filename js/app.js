@@ -41,7 +41,7 @@ window.onload = function()
            div.lastElementChild.classList.remove('divHeader')
         }
    })
-   ScrollReveal().reveal('#destacados',{delay: 500})
+   ScrollReveal().reveal('#destacados',{delay: 100})
    ScrollReveal().reveal('#novedades', {delay: 500})
    ScrollReveal().reveal('.breadcrumb', {delay: 500})
    ScrollReveal().reveal('.categorias', {delay: 700})
