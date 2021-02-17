@@ -41,9 +41,28 @@ window.onload = function()
            div.lastElementChild.classList.remove('divHeader')
         }
    })
-   ScrollReveal().reveal('#destacados',{delay: 100})
    ScrollReveal().reveal('#novedades', {delay: 500})
-   ScrollReveal().reveal('.breadcrumb', {delay: 500})
-   ScrollReveal().reveal('.categorias', {delay: 700})
-   ScrollReveal().reveal('.producto', {delay: 900})
+   if(screen.width > 992)
+   {
+      ScrollReveal().reveal('.producto1', {delay: 600})
+      ScrollReveal().reveal('.producto2', {delay: 700})
+      ScrollReveal().reveal('.producto3', {delay: 800})
+      ScrollReveal().reveal('.producto4', {delay: 900})
+      ScrollReveal().reveal('.producto5', {delay: 1000})
+      ScrollReveal().reveal('.producto6', {delay: 1100})
+      ScrollReveal().reveal('.producto7', {delay: 500})
+      ScrollReveal().reveal('.producto8', {delay: 600})
+   } else 
+   {
+      ScrollReveal().reveal('.producto1', {delay: 500})
+      ScrollReveal().reveal('.producto2', {delay: 500})
+      ScrollReveal().reveal('.producto3', {delay: 500})
+      ScrollReveal().reveal('.producto4', {delay: 500})
+      ScrollReveal().reveal('.producto5', {delay: 500})
+      ScrollReveal().reveal('.producto6', {delay: 500})
+      ScrollReveal().reveal('.producto7', {delay: 500})
+      ScrollReveal().reveal('.producto8', {delay: 500})
+   
+   }
+  
 }
