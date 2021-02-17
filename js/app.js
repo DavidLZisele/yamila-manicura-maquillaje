@@ -43,4 +43,6 @@ window.onload = function()
    })
    ScrollReveal().reveal('#destacados',{delay: 500})
    ScrollReveal().reveal('#novedades', {delay: 500})
+   ScrollReveal().reveal('.breadcrumb', {delay: 500})
+   ScrollReveal().reveal('.col', {delay: 500})
 }

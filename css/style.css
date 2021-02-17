@@ -39,11 +39,11 @@
     width: 300px;
     height: 300px;
   }
-  #novedades h4::after , #destacados h4::after {
+  #novedades>h4::after , #destacados > h4::after {
       content: "--------";
       color: black;
   } 
-  #novedades h4::before , #destacados h4::before {
+  #novedades > h4::before , #destacados > h4::before {
     content: "--------";
     color: black;
 } 
@@ -52,6 +52,7 @@
     left:75%;
     bottom:25px;
 }
+
 @media screen and (min-width:451px) and (max-width:575px)
 {
     .whastapp-article 
@@ -79,6 +80,14 @@
     .whastapp-article 
     {
         left:87%;
+    }
+    .card:hover img
+    {
+        filter: brightness(0.8);
+    }
+    .card img 
+    {
+        transition: all 0.6s linear;
     }
 }
 @media screen and (min-width:830px) and (max-width:991px)
