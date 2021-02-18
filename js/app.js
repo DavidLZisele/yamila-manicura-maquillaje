@@ -65,7 +65,6 @@ window.onload = function()
    
    } else 
    {
-      ScrollReveal().reveal('.producto1', {delay: 500})
       ScrollReveal().reveal('.producto2', {delay: 500})
       ScrollReveal().reveal('.producto3', {delay: 500})
       ScrollReveal().reveal('.producto4', {delay: 500})
