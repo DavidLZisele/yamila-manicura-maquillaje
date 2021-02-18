@@ -41,11 +41,11 @@
   }
   #novedades>h4::after , #destacados > h4::after {
       content: "--------";
-      color: black;
+      color: #cc0066 ;
   } 
   #novedades > h4::before , #destacados > h4::before {
     content: "--------";
-    color: black;
+    color: #cc0066 ;
 } 
 .whastapp-article 
 {
