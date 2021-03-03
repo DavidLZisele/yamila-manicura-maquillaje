@@ -57,6 +57,7 @@ window.onload = function()
       ScrollReveal().reveal('.producto11', {delay: 700})
       ScrollReveal().reveal('.producto12', {delay: 800})
       ScrollReveal().reveal('.producto13', {delay: 500})
+      ScrollReveal().reveal('.producto14', {delay: 600})
    } else if(screen.width >= 768 && screen.width <1200)
    {
       ScrollReveal().reveal('.producto1', {delay: 500})
@@ -72,7 +73,7 @@ window.onload = function()
       ScrollReveal().reveal('.producto11', {delay: 600})
       ScrollReveal().reveal('.producto12', {delay: 700})
       ScrollReveal().reveal('.producto13', {delay: 500})
-   
+      ScrollReveal().reveal('.producto14', {delay: 600})
    } else 
    {
       ScrollReveal().reveal('.producto2', {delay: 500})
@@ -87,6 +88,7 @@ window.onload = function()
       ScrollReveal().reveal('.producto11', {delay: 500})
       ScrollReveal().reveal('.producto12', {delay: 500})
       ScrollReveal().reveal('.producto13', {delay: 500})
+      ScrollReveal().reveal('.producto14', {delay: 500})
    }
   
 }
