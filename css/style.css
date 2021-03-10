@@ -52,6 +52,26 @@
     left:75%;
     bottom:25px;
 }
+.ul-mat li:hover 
+{
+    background-color:rgba(7, 6, 6, 0.37);
+}
+.mover 
+{
+    animation: mover 1.1s ease-out;
+    transform-origin: bottom;
+}
+
+@keyframes mover 
+{
+    from 
+    {
+        transform: translateY(-25px);
+    } to 
+    {
+        transform: translateY(0);
+    }
+}
 @media screen and (min-width:451px) and (max-width:575px)
 {
     .whastapp-article 
@@ -165,7 +185,26 @@
     {
         left:90%;
     }
-
+    .ul-mat {
+        left:283px; 
+        top:-50px;
+        position: absolute;
+    }
+    .li-mat 
+    {
+        position: relative;
+    }
+    @keyframes mover
+    {
+        from
+         {
+            transform: translateX(-100px)
+         } 
+        to
+         {
+            transform: translateX(0);
+         }
+    }
 }
 @media screen and (min-width:1080px) and (max-width:1199px)
 {
